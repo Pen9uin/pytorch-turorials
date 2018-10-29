@@ -31,7 +31,7 @@ Usage： python main.py FUNCTION --key=value,--key2=value2 ..
 - 训练，默认用 gpu+vis
 
 ```
-python main.py train  
+python main.py train
 ```
 
 - 生成图片
