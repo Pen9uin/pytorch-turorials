@@ -1,4 +1,4 @@
-###程序结构
+### 程序结构
 
 - 模型定义
 - 数据加载
@@ -18,31 +18,31 @@
 
 - visdom 可视化
 
-  ```
-  python -m visdom.server
-  ```
+```
+python -m visdom.server
+```
 
 - 基本用法
 
-  ```
-  Usage： python main.py FUNCTION --key=value,--key2=value2 ..
-  ```
+```
+Usage： python main.py FUNCTION --key=value,--key2=value2 ..
+```
 
 - 训练，默认用 gpu+vis
 
-  ```
-  python main.py train  
-  ```
+```
+python main.py train  
+```
 
 - 生成图片
 
-  ```
-  python main.py generate --nogpu --vis=False \
-              --netd-path=checkpoints/netd_200.pth \
-              --netg-path=checkpoints/netg_200.pth \
-              --gen-img=result.png \
-              --gen-num=64
-  ```
+```
+python main.py generate --nogpu --vis=False \
+            --netd-path=checkpoints/netd_200.pth \
+            --netg-path=checkpoints/netg_200.pth \
+            --gen-img=result.png \
+            --gen-num=64
+```
 
 ### 版本
 
